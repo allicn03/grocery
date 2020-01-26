@@ -1,12 +1,13 @@
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
     position: fixed;
+    top: 0;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
   }
-  
+
   /* Add some content at the bottom of the video/page */
   .content {
     position: fixed;
@@ -16,7 +17,7 @@
     width: 100%;
     padding: 20px;
   }
-  
+
   /* Style the button used to pause/play the video */
   #myBtn {
     width: 200px;
@@ -27,8 +28,26 @@
     color: #fff;
     cursor: pointer;
   }
-  
+  .navbar-light .navbar-brand {
+    color: #28a745;
+  }
   #myBtn:hover {
     background: #ddd;
     color: black;
+  }
+
+  li {
+    list-style-type: none;
+    color: white;
+  }
+  .row {
+    border: black, solid, 2px;
+  }
+  h1 {
+    text-align: center;
+  }
+
+
+  h3 {
+    text-align: center;
   }
