@@ -59,7 +59,27 @@
     text-align: center;
   }
 
-
   h3 {
     text-align: center;
+    width: 100%;
+  }
+  p {
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0;
+  }
+
+/* About Styles */
+
+  #about-content {
+    background-color: #white;
+    height: 70vh;
+  }
+  #about-content h3 {
+    padding-top: 80px;
+  }
+  .col-sm-4 {
+    padding: 0;
+    height: 30vh;
   }
