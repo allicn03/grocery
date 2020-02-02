@@ -17,19 +17,20 @@
     width: 100%;
     padding: 20px;
   }
-
-  /* Style the button used to pause/play the video */
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
+  nav {
+    height: 40px;
+  }
+  .navbar-brand {
+    font-size: 16px;
+    padding-bottom: 20px;
   }
   .navbar-light .navbar-brand {
     color: #28a745;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    height: 40px;
   }
   #myBtn:hover {
     background: #ddd;
@@ -40,7 +41,8 @@
     list-style-type: none;
     color: white;
     display: inline-block;
-    padding: 20px;
+    padding-right: 20px;
+    font-size: 16px;
   }
   a {
     text-decoration: none;
