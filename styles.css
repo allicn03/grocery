@@ -1,3 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Mobile first styles go here */
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
     position: fixed;
@@ -183,3 +194,9 @@
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
   }
+
+  @media screen and (min-width: 800px) {
+    /* Desktop styles go here */
+  }
+
+  
